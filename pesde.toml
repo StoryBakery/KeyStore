@@ -1,4 +1,4 @@
-name = "story_bakery/key_store"
+name = "storybakery/key_store"
 version = "0.1.0"
 license = "MIT"
 includes = [
