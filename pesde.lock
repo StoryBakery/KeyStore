@@ -135,7 +135,7 @@ direct = ["Signal", { repo = "https://github.com/StoryBakery/Signal", rev = "mai
 [graph."storybakery/signal@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/Signal"
-tree_id = "656b3ed033d1d354671ad8878bcc2ea0bfe015a6"
+tree_id = "7124ded1236b42ca03ecad3727a80882a7cc62ac"
 new_structure = true
 
 [graph."storybakery/signal@0.1.0 roblox".pkg_ref.dependencies]
@@ -148,7 +148,7 @@ direct = ["TableUtil", { repo = "https://github.com/StoryBakery/TableUtil", rev 
 [graph."storybakery/table_util@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/TableUtil"
-tree_id = "02028af76610eb23eb3be45e06b62a367a18e9d4"
+tree_id = "b43b12c396f90effb4dfe551165711ca54f790e4"
 new_structure = true
 
 [graph."storybakery/table_util@0.1.0 roblox".pkg_ref.dependencies]
