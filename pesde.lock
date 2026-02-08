@@ -129,26 +129,44 @@ pathfs = [{ name = "jiwonz/pathfs", version = "^0.6.0", index = "https://github.
 result = [{ name = "lukadev_0/result", version = "^1.2.1", index = "https://github.com/pesde-pkg/index" }, "peer"]
 unzip = [{ name = "0x5eal/unzip", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "luau" }, "standard"]
 
-[graph."storybakery/signal@0.1.0 roblox"]
-direct = ["Signal", { repo = "https://github.com/StoryBakery/Signal", rev = "main" }, "standard"]
+[graph."story_bakery/setup_project_configs@0.1.12 lune"]
+direct = ["setup-project-configs", { repo = "https://github.com/StoryBakery/setup-project-configs", rev = "0ba9379f8709c3e846ae04180fd8fba854ed52ae" }, "dev"]
 
-[graph."storybakery/signal@0.1.0 roblox".pkg_ref]
+[graph."story_bakery/setup_project_configs@0.1.12 lune".pkg_ref]
 ref_ty = "git"
-repo = "https://github.com/StoryBakery/Signal"
-tree_id = "7124ded1236b42ca03ecad3727a80882a7cc62ac"
+repo = "https://github.com/StoryBakery/setup-project-configs"
+tree_id = "fd1b8b23abfe7388816bb435c8e1aa2708eabf08"
 new_structure = true
 
-[graph."storybakery/signal@0.1.0 roblox".pkg_ref.dependencies]
+[graph."storybakery/pesde_gitrev@0.1.3 lune"]
+direct = ["pesde-gitrev", { repo = "https://github.com/StoryBakery/pesde-gitrev", rev = "720daa5342f214c4ee53c978e56daae5884199a2" }, "dev"]
+
+[graph."storybakery/pesde_gitrev@0.1.3 lune".pkg_ref]
+ref_ty = "git"
+repo = "https://github.com/StoryBakery/pesde-gitrev"
+tree_id = "b1e3adb999485d8d458cd078963d41564d4ab8ec"
+new_structure = true
+
+[graph."storybakery/signal@0.1.2 roblox"]
+direct = ["Signal", { repo = "https://github.com/StoryBakery/Signal", rev = "6b736fa475ea571a0cb488b7ffbcc0f775d9fb5a" }, "standard"]
+
+[graph."storybakery/signal@0.1.2 roblox".pkg_ref]
+ref_ty = "git"
+repo = "https://github.com/StoryBakery/Signal"
+tree_id = "3784e981b97a57c4d2b2890a30da632bdbcf38b6"
+new_structure = true
+
+[graph."storybakery/signal@0.1.2 roblox".pkg_ref.dependencies]
 rojo = [{ name = "pesde/rojo", version = "^7.5.1", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 scripts = [{ name = "pesde/scripts_rojo", version = "^0.2.0", index = "https://github.com/pesde-pkg/index", target = "lune" }, "dev"]
 
 [graph."storybakery/table_util@0.1.0 roblox"]
-direct = ["TableUtil", { repo = "https://github.com/StoryBakery/TableUtil", rev = "main" }, "standard"]
+direct = ["TableUtil", { repo = "https://github.com/StoryBakery/TableUtil", rev = "961700292dd382b062955e16cac7ccccc361cdfa" }, "standard"]
 
 [graph."storybakery/table_util@0.1.0 roblox".pkg_ref]
 ref_ty = "git"
 repo = "https://github.com/StoryBakery/TableUtil"
-tree_id = "b43b12c396f90effb4dfe551165711ca54f790e4"
+tree_id = "8e558b1fd551a68678d5be7a255d395d5dccfae7"
 new_structure = true
 
 [graph."storybakery/table_util@0.1.0 roblox".pkg_ref.dependencies]
